@@ -1,0 +1,113 @@
+#pgraph {
+    background: #333;
+    margin: 100px 0 30px 0;
+    padding: 50px;
+}
+
+.pgraph-text {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+#cards {
+    margin-bottom: 100px;
+}
+
+#testimonials {
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.snip1467 {
+    font-family: 'Lato', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    background-color: #000000;
+    line-height: 1.5em;
+}
+
+.snip1467 *,
+.snip1467 *:before,
+.snip1467 *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.snip1467 img {
+    width: 100%;
+    height: 300px;
+    backface-visibility: hidden;
+    vertical-align: top;
+    -webkit-transform: translate(-40px);
+    transform: translate(-40px);
+}
+
+.snip1467 figcaption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+    padding: 5px 40px;
+    opacity: 0;
+}
+
+.snip1467 h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.snip1467 p {
+    font-weight: 400;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.snip1467 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.snip1467:hover img,
+.snip1467.hover img {
+    zoom: 1;
+    filter: alpha(opacity=30);
+    -webkit-opacity: 0.3;
+    opacity: 0.3;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.snip1467:hover figcaption,
+.snip1467.hover figcaption {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    margin-bottom: 100px;
+}
